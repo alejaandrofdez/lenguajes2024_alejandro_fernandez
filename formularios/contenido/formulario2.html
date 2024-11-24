@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/formulario2.css">
+    <title>Formulario 2</title>
+    
+</head>
+<body>
+    
+    
+    <form action="/submit" method="POST">
+        
+        <fieldset class="form">
+            <h1 class="h1">Formulario de contacto</h1>
+            <p>Escribenos y en breve nos pondremos en contacto contigo</p>
+
+            <div class="label">
+                <label for="nombre">Nombre *</label>
+                <input type="text" id="nombre" value="Escribe tu nombre" required><br>
+    
+                <label for="email">Email *</label>
+                <input type="email" id="email" value="Escribe tu Email" required><br>
+    
+                <label for="nombre">Teléfono</label>
+                <input type="text" id="Teléfono" value="Escribe tu telefono"><br>
+    
+                <label for="web">Sitio web</label>
+                <input type="url" id="Escribe la URL de tu web" value="web"><br>
+    
+                <label for="asunto">Asunto *</label>
+                <input type="text" id="asunto" value="Escribe un asunto" required><br>
+    
+                <label for="mensaje">Mensaje *</label>
+                <textarea name="mensaje" id="comentario" placeholder="Deja aquí tu comentario" cols="30" rows="10"></textarea>
+                
+            </div>
+            
+
+            
+
+            <input type="submit" value="ENVIAR">
+
+            <p class="p1">
+                *los campos son obligatorios
+            </p>
+        
+        </fieldset>
+
+
+    </form>
+    <br>
+    <a href="../formularios.html">Vuelta al índice</a>
+</body>
+
+</html>

@@ -1,0 +1,515 @@
+
+ /* Reset básico */
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background-color: rgb(30, 28, 28);
+}
+
+h1, h2, h3 {
+    color: red;
+}
+
+/* Estilo para el título del encabezado */
+/* Encabezado */
+header {
+    background-color: black;
+    padding: 1em 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /*Coloca el título y la navegación en columnas*/
+    align-items: center;
+    border-radius: 1cap;
+}
+
+/* Estilo para el título y los enlaces de navegación */
+header h1, header nav li {
+    padding: 0.5em 1em; /* Espaciado interno */
+    margin-bottom: 0.5em; /* Espacio entre cada elemento */
+    font-size: 1.2em; /* Tamaño de fuente */
+}
+
+/* Estilo para el contenedor de navegación */
+header nav ul {
+    list-style-type: none; 
+    padding: 10px;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+
+/* Estilos de los enlaces de navegación */
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*Darle color a los <li> de la web*/
+header nav a:hover {
+    color: #f39c12;
+}
+
+
+
+/* Contenido principal */
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #010101;
+    border-radius: 1cap;
+}
+
+section {
+    margin-bottom: 2em;
+    display:block;
+    
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+/* Estilos de los artículos */
+article {
+    background-color: #050505;
+    padding: 1em;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-size: 1.4em;
+    color: red;
+    text-align: center;
+}
+
+/* Estilos del video */
+video iframe {
+    width: 500px;
+    height: auto;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Galería de imágenes */
+.imagenes {
+    width: 300px; 
+    height: 300px;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    max-width: 100%;
+}
+
+figure {
+    text-align: center;
+    max-width: 300px;
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 0.5em;
+    font-style: italic;
+    color: #7f8c8d;
+    text-align: center;
+}
+
+audio {
+    margin-left: 180px;
+    color: darkred;
+    
+}
+
+/* Pie de página */
+footer {
+    background-color: #050505;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-top: 1em;
+    
+}
+
+/* Contenedor de cada ser mitológico */
+.mitologico {
+    position:relative;
+    display: inline-block;
+    width: 300px;
+    margin: 1em;
+    padding: 10px;
+    text-align: center;
+
+
+/* Texto superpuesto sobre la imagen */
+.mitologico figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Fondo oscuro semi-transparente */
+    color: #fff;
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 0 0 8px 8px; /* Bordes redondeados en la parte inferior */
+    font-size: 40px;
+}
+=======
+    /* Reset básico */
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background-color: rgb(30, 28, 28);
+}
+
+h1, h2, h3 {
+    color: red;
+}
+
+/* Estilo para el título del encabezado */
+/* Encabezado */
+header {
+    background-color: black;
+    padding: 1em 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /*Coloca el título y la navegación en columnas*/
+    align-items: center;
+    border-radius: 1cap;
+}
+
+/* Estilo para el título y los enlaces de navegación */
+header h1, header nav li {
+    padding: 0.5em 1em; /* Espaciado interno */
+    margin-bottom: 0.5em; /* Espacio entre cada elemento */
+    font-size: 1.2em; /* Tamaño de fuente */
+}
+
+/* Estilo para el contenedor de navegación */
+header nav ul {
+    list-style-type: none; 
+    padding: 10px;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+
+/* Estilos de los enlaces de navegación */
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*Darle color a los <li> de la web*/
+header nav a:hover {
+    color: #f39c12;
+}
+
+
+
+/* Contenido principal */
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #010101;
+    border-radius: 1cap;
+}
+
+section {
+    margin-bottom: 2em;
+    display:block;
+    
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+/* Estilos de los artículos */
+article {
+    background-color: #050505;
+    padding: 1em;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-size: 1.4em;
+    color: red;
+    text-align: center;
+}
+
+/* Estilos del video */
+video iframe {
+    width: 500px;
+    height: auto;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Galería de imágenes */
+.imagenes {
+    width: 300px; 
+    height: 300px;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    max-width: 100%;
+}
+
+figure {
+    text-align: center;
+    max-width: 300px;
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 0.5em;
+    font-style: italic;
+    color: #7f8c8d;
+    text-align: center;
+}
+
+audio {
+    margin-left: 180px;
+    color: darkred;
+    
+}
+
+/* Pie de página */
+footer {
+    background-color: #050505;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-top: 1em;
+    
+}
+
+/* Contenedor de cada ser mitológico */
+.mitologico {
+    position:relative;
+    display: inline-block;
+    width: 300px;
+    margin: 1em;
+    padding: 10px;
+    text-align: center;
+
+
+/* Texto superpuesto sobre la imagen */
+.mitologico figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Fondo oscuro semi-transparente */
+    color: #fff;
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 0 0 8px 8px; /* Bordes redondeados en la parte inferior */
+    font-size: 40px;
+}
+>>>>>>> 02d861ba44aa0941cde893dc39c7f83bf8585afe:lenguajes2024_alejandro_fernandez/lenguajes2024_alejandro_fernandez/websemantica/css/web_semantica.css
+=======
+    /* Reset básico */
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background-color: rgb(30, 28, 28);
+}
+
+h1, h2, h3 {
+    color: red;
+}
+
+/* Estilo para el título del encabezado */
+/* Encabezado */
+header {
+    background-color: black;
+    padding: 1em 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /*Coloca el título y la navegación en columnas*/
+    align-items: center;
+    border-radius: 1cap;
+}
+
+/* Estilo para el título y los enlaces de navegación */
+header h1, header nav li {
+    padding: 0.5em 1em; /* Espaciado interno */
+    margin-bottom: 0.5em; /* Espacio entre cada elemento */
+    font-size: 1.2em; /* Tamaño de fuente */
+}
+
+/* Estilo para el contenedor de navegación */
+header nav ul {
+    list-style-type: none; 
+    padding: 10px;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+
+/* Estilos de los enlaces de navegación */
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*Darle color a los <li> de la web*/
+header nav a:hover {
+    color: #f39c12;
+}
+
+
+
+/* Contenido principal */
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #010101;
+    border-radius: 1cap;
+}
+
+section {
+    margin-bottom: 2em;
+    display:block;
+    
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+/* Estilos de los artículos */
+article {
+    background-color: #050505;
+    padding: 1em;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-size: 1.4em;
+    color: red;
+    text-align: center;
+}
+
+/* Estilos del video */
+video iframe {
+    width: 500px;
+    height: auto;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Galería de imágenes */
+.imagenes {
+    width: 300px; 
+    height: 300px;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    max-width: 100%;
+}
+
+figure {
+    text-align: center;
+    max-width: 300px;
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 0.5em;
+    font-style: italic;
+    color: #7f8c8d;
+    text-align: center;
+}
+
+audio {
+    margin-left: 180px;
+    color: darkred;
+    
+}
+
+/* Pie de página */
+footer {
+    background-color: #050505;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-top: 1em;
+    
+}
+
+/* Contenedor de cada ser mitológico */
+.mitologico {
+    position:relative;
+    display: inline-block;
+    width: 300px;
+    margin: 1em;
+    padding: 10px;
+    text-align: center;
+
+
+/* Texto superpuesto sobre la imagen */
+.mitologico figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Fondo oscuro semi-transparente */
+    color: #fff;
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 0 0 8px 8px; /* Bordes redondeados en la parte inferior */
+    font-size: 40px;
+}
+>>>>>>> 02d861ba44aa0941cde893dc39c7f83bf8585afe

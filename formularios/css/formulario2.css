@@ -1,0 +1,85 @@
+
+/* Estilos generales para el cuerpo de la página */
+.body {
+    font-family: Arial;
+    background-color: #f4f4f4; 
+    margin: 0; 
+    padding: 0; 
+}
+
+/* Estilos principales del formulario */
+.form {
+    max-width: 400px; 
+    margin: 50px auto; 
+    padding: 25px; 
+    background-color: #ffffff; 
+    border: 5px solid #c55399; 
+    border-radius: 10px; 
+}
+
+
+.h1 {
+    color: #c55399; 
+    text-align: justify;
+    margin-bottom: 10px; 
+}
+
+
+.p {
+    text-align: center; 
+    color: #555; 
+    font-size: 14px; 
+    margin-bottom: 20px; 
+}
+.p1{
+    text-align: left;
+    font-size: 13px;
+    margin-top: 20px;
+
+}
+
+/* Estilos para las etiquetas de los campos del formulario */
+label {
+    display: block; 
+    font-weight: bold; 
+    margin-top: 30px; 
+    color: #333;
+}
+
+/* Estilo para los campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="asunto"],
+input[type="mensaje"],
+
+textarea {
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 5px; 
+    border: 2px solid #c55399; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    font-size: 14px; 
+}
+
+/* Estilos para el botón de enviar */
+input[type="submit"] {
+    width: 100%; 
+    background-color: #c55399; 
+    color: white; 
+    padding: 10px 0; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 13px; 
+    margin-top: 20px; 
+}
+
+
+
+
+
+
+
+

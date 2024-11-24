@@ -1,0 +1,27 @@
+table {
+    width: 200px;
+    border-collapse: collapse;
+    margin: 50px auto;
+}
+th, td {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+td {
+    cursor: pointer;
+}
+input {
+    width: 100%;
+    text-align: right;
+    font-size: 20px;
+    padding: 10px;
+}
+.h2{
+    text-align: center;
+}
+/*Color de fondo de la calculadora*/
+.for{
+    background-color: rgb(183, 201, 240);
+}
