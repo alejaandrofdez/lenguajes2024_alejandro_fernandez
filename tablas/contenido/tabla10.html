@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Más Banderas Famosas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            display: flex;
+            background-color: black;
+            color: white;
+            text-align: center;
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 50px;
+        }
+
+        main {
+            margin-top: 60px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        main>div {
+            width: 275px;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px;
+            border: 1px solid slategray;
+            box-shadow: 2px 2px 5px gray;
+        }
+
+        .bandera {
+            width: 250px;
+            height: 150px;
+            border: 1px solid black;
+            display: flex;
+            margin-top: 10px;
+            position: relative;
+        }
+
+        /* Bandera genérica horizontal */
+        .horizontales div {
+            height: 33.33%;
+            width: 100%;
+        }
+
+        /* Bandera genérica vertical */
+        .verticales div {
+            width: 33.33%;
+            height: 100%;
+        }
+
+        /* Bandera de España */
+        .espana div:nth-child(1),
+        .espana div:nth-child(3) {
+            background-color: red;
+        }
+
+        .espana div:nth-child(2) {
+            background-color: yellow;
+        }
+
+        /* Bandera de Rusia */
+        .rusia div:nth-child(1) {
+            background-color: white;
+        }
+
+        .rusia div:nth-child(2) {
+            background-color: blue;
+        }
+
+        .rusia div:nth-child(3) {
+            background-color: red;
+        }
+
+        /* Bandera de Ucrania */
+        .ucrania div:nth-child(1) {
+            background-color: blue;
+        }
+
+        .ucrania div:nth-child(2) {
+            background-color: yellow;
+        }
+
+        /* Bandera de Argentina */
+        .argentina div:nth-child(1),
+        .argentina div:nth-child(3) {
+            background-color: lightblue;
+        }
+
+        .argentina div:nth-child(2) {
+            background-color: white;
+            position: relative;
+        }
+
+        .argentina div:nth-child(2)::after {
+            content: '';
+            position: absolute;
+            top: 35%;
+            left: 45%;
+            width: 20%;
+            height: 20%;
+            background-color: yellow;
+            border-radius: 50%;
+        }
+
+        /* Bandera de Chile */
+        .chile {
+            background-color: white;
+            position: relative;
+        }
+
+        .chile::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 50%;
+            background-color: blue;
+        }
+
+        .chile::after {
+            content: '';
+            position: absolute;
+            top: 15%;
+            left: 15%;
+            width: 20%;
+            height: 20%;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        /* Bandera de Canadá */
+        .canada {
+            background-color: white;
+            position: relative;
+        }
+
+        .canada::before,
+        .canada::after {
+            content: '';
+            position: absolute;
+            background-color: red;
+            width: 20%;
+            height: 100%;
+        }
+
+        .canada::before {
+            left: 0;
+        }
+
+        .canada::after {
+            right: 0;
+        }
+
+        .canada::after {
+            content: '🇨🇦';
+            font-size: 100px;
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* Bandera de Grecia */
+        .grecia {
+            background: repeating-linear-gradient(
+                to bottom,
+                blue,
+                blue 10%,
+                white 10%,
+                white 20%
+            );
+            position: relative;
+        }
+
+        .grecia::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 40%;
+            height: 40%;
+            background-color: blue;
+        }
+
+        /* Bandera de Suecia */
+        .suecia {
+            background-color: blue;
+            position: relative;
+        }
+
+        .suecia::before,
+        .suecia::after {
+            content: '';
+            position: absolute;
+            background-color: yellow;
+        }
+
+        .suecia::before {
+            width: 15%;
+            height: 100%;
+            left: 40%;
+        }
+
+        .suecia::after {
+            width: 100%;
+            height: 15%;
+            top: 40%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>Más Banderas Famosas</header>
+    <main>
+        <!-- Bandera de España -->
+        <div>
+            <h3>España</h3>
+            <div class="bandera horizontales espana">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <!-- Bandera de Rusia -->
+        <div>
+            <h3>Rusia</h3>
+            <div class="bandera horizontales rusia">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <!-- Bandera de Ucrania -->
+        <div>
+            <h3>Ucrania</h3>
+            <div class="bandera horizontales ucrania">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <!-- Bandera de Argentina -->
+        <div>
+            <h3>Argentina</h3>
+            <div class="bandera horizontales argentina">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <!-- Bandera de Chile -->
+        <div>
+            <h3>Chile</h3>
+            <div class="bandera chile"></div>
+        </div>
+
+        <!-- Bandera de Canadá -->
+        <div>
+            <h3>Canadá</h3>
+            <div class="bandera canada"></div>
+        </div>
+
+        <!-- Bandera de Grecia -->
+        <div>
+            <h3>Grecia</h3>
+            <div class="bandera grecia"></div>
+        </div>
+
+        <!-- Bandera de Suecia -->
+        <div>
+            <h3>Suecia</h3>
+            <div class="bandera suecia"></div>
+        </div>
+    </main>
+</body>
+
+</html>

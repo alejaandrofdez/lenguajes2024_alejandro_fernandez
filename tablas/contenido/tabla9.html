@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>40 Banderas Famosas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            display: flex;
+            background-color: black;
+            color: white;
+            text-align: center;
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 40px;
+        }
+
+        main {
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            justify-content: center;
+        }
+
+        main>div {
+            width: 275px;
+            height: 250px;
+            background-color: aliceblue;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            border: 2px solid slategray;
+            box-shadow: 2px 2px 5px;
+            margin: 10px;
+        }
+
+        .bandera {
+            width: 250px;
+            height: 150px;
+            border: 2px solid black;
+            display: flex;
+            margin-top: 10px;
+        }
+
+        /* Bandera genérica de franjas horizontales */
+        .horizontales div {
+            height: 33.33%;
+            width: 100%;
+        }
+
+        /* Bandera genérica de franjas verticales */
+        .verticales div {
+            width: 33.33%;
+            height: 100%;
+        }
+
+        /* Bandera de Alemania */
+        .alemania div:nth-child(1) {
+            background-color: black;
+        }
+
+        .alemania div:nth-child(2) {
+            background-color: red;
+        }
+
+        .alemania div:nth-child(3) {
+            background-color: yellow;
+        }
+
+        /* Bandera de Francia */
+        .francia div:nth-child(1) {
+            background-color: blue;
+        }
+
+        .francia div:nth-child(2) {
+            background-color: white;
+        }
+
+        .francia div:nth-child(3) {
+            background-color: red;
+        }
+
+        /* Bandera de Italia */
+        .italia div:nth-child(1) {
+            background-color: green;
+        }
+
+        .italia div:nth-child(2) {
+            background-color: white;
+        }
+
+        .italia div:nth-child(3) {
+            background-color: red;
+        }
+
+        /* Bandera de Japón */
+        .japon {
+            position: relative;
+            background-color: white;
+        }
+
+        .japon::after {
+            content: '';
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            width: 50%;
+            height: 50%;
+            background-color: red;
+            border-radius: 50%;
+        }
+
+        /* Bandera de Estados Unidos (simplificada) */
+        .usa div:nth-child(1) {
+            background: repeating-linear-gradient(
+                to bottom,
+                red,
+                red 10%,
+                white 10%,
+                white 20%
+            );
+            height: 100%;
+        }
+
+        /* Bandera de Brasil */
+        .brasil {
+            position: relative;
+            background-color: green;
+        }
+
+        .brasil::before {
+            content: '';
+            position: absolute;
+            top: 20%;
+            left: 20%;
+            width: 60%;
+            height: 60%;
+            background-color: yellow;
+            transform: rotate(45deg);
+        }
+
+        .brasil::after {
+            content: '';
+            position: absolute;
+            top: 40%;
+            left: 40%;
+            width: 20%;
+            height: 20%;
+            background-color: blue;
+            border-radius: 50%;
+        }
+
+        /* Bandera de India */
+        .india div:nth-child(1) {
+            background-color: orange;
+        }
+
+        .india div:nth-child(2) {
+            background-color: white;
+            position: relative;
+        }
+
+        .india div:nth-child(2)::after {
+            content: '';
+            position: absolute;
+            top: 30%;
+            left: 40%;
+            width: 20%;
+            height: 20%;
+            border: 2px solid blue;
+            border-radius: 50%;
+        }
+
+        .india div:nth-child(3) {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>40 Banderas Famosas</header>
+
+    <main>
+        <!-- Bandera de Alemania -->
+        <div>
+            <h2>Alemania</h2>
+            <div class="bandera horizontales alemania">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <!-- Bandera de Francia -->
+        <div>
+            <h2>Francia</h2>
+            <div class="bandera verticales francia">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <!-- Bandera de Italia -->
+        <div>
+            <h2>Italia</h2>
+            <div class="bandera verticales italia">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <!-- Bandera de Japón -->
+        <div>
+            <h2>Japón</h2>
+            <div class="bandera japon"></div>
+        </div>
+
+        <!-- Bandera de Estados Unidos -->
+        <div>
+            <h2>Estados Unidos</h2>
+            <div class="bandera usa">
+                <div></div>
+            </div>
+        </div>
+
+        <!-- Bandera de Brasil -->
+        <div>
+            <h2>Brasil</h2>
+            <div class="bandera brasil"></div>
+        </div>
+
+        <!-- Bandera de India -->
+        <div>
+            <h2>India</h2>
+            <div class="bandera horizontales india">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
