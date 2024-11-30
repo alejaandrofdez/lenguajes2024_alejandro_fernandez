@@ -1,0 +1,139 @@
+/*Esto es con chatgpt*/
+.rdemocraticacongo {
+    background: linear-gradient(146deg, #007FFF 0%, #007FFF 45%, #F7D618 45%, #F7D618 50%, #CE1021 50%, #CE1021 60%, #F7D618 60%, #F7D618 65%, #007FFF 65%, #007FFF 100%);
+    position: relative; 
+}
+.rdemocraticacongo:before {
+    position: absolute;
+    content: "★";
+    color: #F7D618;
+    font-size: 36px;
+    top: 10px;
+    left: 20px;
+}
+/*Esto es con chatgpt*/
+.ghana {
+    background: linear-gradient(to bottom, #CE1126 calc(100% / 3), #FCD116 calc(100% / 3), #FCD116 calc(100% / 3 * 2), #006B3F calc(100% / 3 * 2));
+    position: relative; 
+}
+.ghana:before {
+    position: absolute;
+    content: "★";
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    margin-right: auto;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    top: calc(50% - 22px); 
+}
+/*Esto es con chatgpt*/
+.guinea-bisau {
+    background: linear-gradient(to right, #CE1126 35%, transparent 35%), linear-gradient(to bottom, #FCD116 50%, #009E49 50%);
+    position: relative; 
+}
+.guinea-bisau:before {
+    position: absolute;
+    content: "★";
+    color: black;
+    font-size: 40px;
+    top: calc(50% - 27px);
+    left: 10px; 
+}
+.myanmar {
+    background: linear-gradient(to bottom, #FECB00 calc(100% / 3), #34B233 calc(100% / 3), #34B233 calc(100% / 3 * 2), #EA2839 calc(100% / 3 * 2));
+    position: relative; 
+}
+.myanmar:before {
+    position: absolute;
+    content: "★";
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    margin-right: auto;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    top: 2px; 
+}
+/*Esto es con chatgpt*/
+.senegal {
+    background: linear-gradient(to right, #00853F calc(100% / 3), #FDEF42 calc(100% / 3), #FDEF42 calc(100% / 3 * 2), #E31B23 calc(100% / 3 * 2));
+    position: relative; 
+}
+.senegal:before {
+    position: absolute;
+    content: "★";
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    margin-right: auto;
+    text-align: center;
+    color: #00853F;
+    font-size: 36px;
+    top: 30%; 
+}
+.somalia {
+    background: #4189DD;
+    position: relative; 
+}
+.somalia:before {
+    position: absolute;
+    content: "★";
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    top: 7px;
+}
+.suriname {
+    background: linear-gradient(to bottom, #377E3F 20%, white 20%, white 30%, #B40A2D 30%, #B40A2D 70%, white 70%, white 80%, #377E3F 80%);
+    position: relative;
+}
+.suriname:before {
+    position: absolute;
+    content: "★";
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    margin-right: auto;
+    text-align: center;
+    color: #ECC81D;
+    font-size: 80px;
+    top: 17px; 
+}
+.vietnam {
+    background: rgb(224, 17, 17);
+    position: relative; 
+}
+.vietnam:before {
+    position: absolute;
+    content: "★";
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    margin-right: auto;
+    text-align: center;
+    color: yellow;
+    font-size: 105px;
+    top: 3px;
+}
+.siria {
+    background: linear-gradient(to bottom, red calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), black calc(100% / 3 * 2));
+    position: relative; 
+}
+.siria:before {
+    position: absolute;
+    content: "★ ★";
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    margin-right: auto;
+    text-align: center;
+    color: #007A3D;
+    font-size: 30px;
+    top: 44px; }

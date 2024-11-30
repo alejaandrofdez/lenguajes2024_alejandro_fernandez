@@ -1,0 +1,7 @@
+#bahamas{
+    
+    background: linear-gradient(146deg, black 25%, transparent 15%) 0 -60px, linear-gradient(34deg, black 25%, transparent 15%) 0 -60px, linear-gradient(to bottom, #00ABC9, #00ABC9 calc(100% / 3), #FAE042 calc(100% / 3), #FAE042 calc(100% / 3 * 2), #00ABC9 calc(100% / 3 * 2), #00ABC9 100%);
+    box-sizing: content-box;
+}
+
+       

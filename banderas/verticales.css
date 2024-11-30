@@ -1,0 +1,30 @@
+#francia{
+    background-image: linear-gradient( to right, blue 33.33%, white 33.33%, white 66.66%, red 33.33%);
+}
+#belgica{
+    background-image: linear-gradient( to right, black 33.33%, yellow 33.33%, yellow 66.66%, red 33.33%);
+}
+#nigeria{
+    background-image: linear-gradient( to right, rgb(10, 83, 10) 33.33%,white 33.33%, white 66.66% ,  rgb(10, 83, 10) 33.33%);
+}
+#irlanda{
+    background-image: linear-gradient( to right, green 33.33%,white 33.33%, white 66.66% , orange 33.33%);
+}
+#chad{
+    background-image: linear-gradient( to right, rgb(7, 7, 119) 33.33%,rgb(201, 201, 22) 33.33%,rgb(201, 201, 22) 66.66% , red 33.33%);
+}
+#italia{
+    background-image: linear-gradient(to right, green 33.33%, white 33.33%,white 66.66%, red 33.33%);
+}
+#peru{
+    background-image: linear-gradient(to right, red 33.33%, white 33.33%,white 66.66%, red 33.33%);
+}
+#guatemala{
+    background-image: linear-gradient(to right, rgb(89, 161, 234) 33.33%, white 33.33%,white 66.66%, rgb(89, 161, 234) 33.33%);
+}
+#mali{
+    background-image: linear-gradient(to right, green 33.33%, yellow 33.33%,yellow 66.66%, red 33.33%);
+}
+#rumania{
+    background-image: linear-gradient(to right, rgb(6, 6, 136) 33.33%, yellow 33.33%,yellow 66.66%, red 33.33%);
+}

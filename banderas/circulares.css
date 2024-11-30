@@ -1,0 +1,12 @@
+#japon{
+    
+    background: radial-gradient( 110px at 50%, rgb(177, 34, 34) 0%,rgb(177, 34, 34) 35%, transparent 35%, transparent 100%), #ffffff;
+}
+#bangladesh{
+    
+    background: radial-gradient(110px at 40% 50%, #F42A41 0, #F42A41 35%, transparent 35%, transparent 100%), #006A4E; 
+}
+#palaos{
+    
+    background: radial-gradient(110px at 45% 50%, yellow 0, yellow 35%, transparent 35%, transparent 100%), rgb(61, 198, 244); 
+}

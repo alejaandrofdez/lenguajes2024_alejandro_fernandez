@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta</title>
+    <link rel="stylesheet" href="horizontales.css">
+    <link rel="stylesheet" href="verticales.css">
+    <link rel="stylesheet" href="triangulares.css">
+    <link rel="stylesheet" href="circulares.css">
+    <link rel="stylesheet" href="horizontales_y_verticales.css">
+    <link rel="stylesheet" href="estrella.css">
+    <style>
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .header{
+        position: sticky;
+        background-color: black;
+        text-align: center;
+        color: white;
+        padding: 20px;
+        font-size: 20px;
+        
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .container{
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        
+    }
+    .tarjeta{
+        background-color: rgb(224, 215, 215);
+        height: 250px;
+        width: 275px;
+        border: 5px;
+        padding: 10px;
+        text-align: center;
+
+    }
+    .bandera{
+    width: 250px;
+    height: 150px;
+    margin: 0;
+    border: 1px solid black;
+    box-sizing: border-box;
+    }
+    
+    
+    .footer{
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        font-size: 20px;
+        color: white;
+        position: fixed;
+        padding: 20px;
+    }
+    </style>
+</head>
+<body>
+    <header class="header">Banderas</header>
+    <main class="main">
+        <div class="container">
+            <div class="tarjeta">
+                <h1>Lituania</h1>
+                <div id="lituania" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Alemania</h1>
+                <div id="alemania" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Polonia</h1>
+                <div id="polonia" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Ucrania</h1>
+                <div id="ucrania" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Paises Bajos</h1>
+                <div id="paisesbajos" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Estonia</h1>
+                <div id="estonia" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Rusia</h1>
+                <div id="rusia" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Serbia</h1>
+                <div id="serbia" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Austria</h1>
+                <div id="austria" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Armenia</h1>
+                <div id="armenia" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Francia</h1>
+                <div id="francia" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Belgica</h1>
+                <div id="belgica" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Nigeria</h1>
+                <div id="nigeria" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Irlanda</h1>
+                <div id="irlanda" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Chad</h1>
+                <div id="chad" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Italia</h1>
+                <div id="italia" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Peru</h1>
+                <div id="peru" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Guatemala</h1>
+                <div id="guatemala" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Malí</h1>
+                <div id="mali" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Rumania</h1>
+                <div id="rumania" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Bangladesh</h1>
+                <div id="bangladesh" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Japon</h1>
+                <div id="japon" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Suecia</h1>
+                <div id="suecia" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Dinamarca</h1>
+                <div id="dinamarca" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Madagascar</h1>
+                <div id="madagascar" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>R.D.Congo</h1>
+                <div class="bandera rdemocraticacongo"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Finlandia</h1>
+                <div id="finlandia" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Ghana</h1>
+                <div class="bandera ghana"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Guinea-Bisau</h1>
+                <div class="bandera guinea-bisau"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Myanmar</h1>
+                <div class="bandera myanmar"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Noruega</h1>
+                <div id="noruega" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Senegal</h1>
+                <div class="bandera senegal"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Seychelles</h1>
+                <div id="seychelles" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Somalia</h1>
+                <div class="bandera somalia"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Suriname</h1>
+                <div class="bandera suriname"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Vietnam</h1>
+                <div class="bandera vietnam"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Palaos</h1>
+                <div id="palaos" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>TrinidadTobago</h1>
+                <div id="trinidadytobago" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Siria</h1>
+                <div class="bandera siria"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Kuwait</h1>
+                <div id="kuwait" class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Tarjeta</h1>
+                <div class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Tarjeta</h1>
+                <div class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Tarjeta</h1>
+                <div class="bandera"></div>
+            </div>
+            <div class="tarjeta">
+                <h1>Tarjeta</h1>
+                <div class="bandera"></div>
+            </div>
+            
+        </div>
+    </main>
+    
+    
+    
+</body>
+<footer class="footer">Alejandro Fernández Parra</footer>
+</html>

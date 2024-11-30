@@ -1,0 +1,33 @@
+#alemania {
+    
+    background: linear-gradient(  #000000 33.33%,red 33.33%, red 66.66%, yellow 33.33%);
+}
+#lituania{
+    background-image: linear-gradient(rgb(231, 231, 29) 33.33%,green 33.33%, green 66.66%, red 33.33%);
+}
+#polonia{
+    
+    background-image: linear-gradient(white 50.00%, red 50.00%);
+}
+
+#ucrania{
+    background-image: linear-gradient(blue 50.00%, yellow 50.00%);
+}
+#paisesbajos{
+    background-image: linear-gradient(rgb(100, 9, 9) 33.33%,white 33.33%, white 66.66%, rgb(13, 13, 109) 33.33%);
+}
+#estonia{
+    background-image: linear-gradient( rgb(13, 143, 204)33.33%,black 33.33%, black 66.66%, white.33%);
+}
+#rusia{
+    background-image: linear-gradient( white 33.33%,blue 33.33%,blue 66.66%, red 33.33%);
+}
+#serbia{
+    background-image: linear-gradient( rgb(143, 22, 22) 33.33%, rgb(19, 19, 165) 33.33%, rgb(19, 19, 165) 66.66%, white 33.33%);
+}
+#austria{
+    background-image: linear-gradient( rgb(143, 22, 22) 33.33%, white 33.33%, white 66.66%, rgb(143, 22, 22) 33.33%);
+}
+#armenia{
+    background-image: linear-gradient(rgb(219, 44, 44) 33.33%, rgb(35, 35, 165) 33.33%, blue 66.66%, rgb(209, 209, 19) 33.33%);
+}

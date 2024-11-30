@@ -1,0 +1,59 @@
+/*Este codigo lo he copiado*/
+#dinamarca{
+     
+    background-color: #D81E05;
+    background-image: -webkit-linear-gradient(top, transparent, transparent 71px, #FFF 71px, #FFF 95px, transparent 95px, transparent 100%), 
+                      -webkit-linear-gradient(left, transparent, transparent 71px, #FFF 71px, #FFF 95px, transparent 95px, transparent 100%);
+    background-image: linear-gradient(180deg, transparent, transparent 71px, #FFF 71px, #FFF 95px, transparent 95px, transparent 100%), 
+                      linear-gradient(90deg, transparent, transparent 71px, #FFF 71px, #FFF 95px, transparent 95px, transparent 100%);
+}
+    
+#madagascar {
+    background: 
+        linear-gradient(to right, white 30%, transparent 30%), 
+        linear-gradient(to bottom, #FC3D32 50%, #007E3A 50%); 
+}
+
+#suecia{
+    background-color: rgb(34, 136, 252);
+    background-image: -webkit-linear-gradient(top, transparent, transparent 71px, yellow 71px, yellow 95px, transparent 95px, transparent 100%), 
+                      -webkit-linear-gradient(left, transparent, transparent 71px, yellow 71px, yellow 95px, transparent 95px, transparent 100%);
+    background-image: linear-gradient(180deg, transparent, transparent 71px, yellow 71px, yellow 95px, transparent 95px, transparent 100%), 
+                      linear-gradient(90deg, transparent, transparent 71px, yellow 71px, yellow 95px, transparent 95px, transparent 100%);
+}
+#finlandia {
+    background: 
+    
+        linear-gradient(to bottom, transparent 35%, #003580 35%, #003580 60%, transparent 60%), 
+        linear-gradient(to right, transparent 30%, #003580 30%, #003480 45%, transparent 45%), 
+        white;
+}
+#noruega {
+    background: 
+        linear-gradient(to bottom, transparent 43%, #002868 43%, #002868 54%, transparent 54%),
+        linear-gradient(to right, transparent 28%, #002868 28%, #002868 37%, transparent 37%), 
+        linear-gradient(to right, transparent 25%, white 25%, white 40%, transparent 40%), 
+        linear-gradient(to bottom, transparent 38%, white 38%, white 59%, transparent 59%),
+        #EF2B2D; 
+}
+#seychelles {
+    background: 
+        linear-gradient(170deg, transparent 79%, #007A3D 55%), 
+        linear-gradient(160deg, transparent 65%, white 45%), 
+        linear-gradient(141deg, transparent 45%, #D62828 45%), 
+        linear-gradient(120deg, transparent 27%, #FCD856 25%), 
+    #003F87;
+}
+/*Esto es con chatgpt*/
+#trinidadytobago {
+    background: linear-gradient(45deg, transparent 40%, white 40%, white 43%, black 43%, black 57%, white 57%, white 60%, transparent 0), 
+    #CE1126;
+}
+#kuwait {
+    background: white;
+    border-left: 50px solid black;
+    border-top: 35px solid #007A3D;
+    border-bottom: 35px solid #CE1126; }
+  
+
+    
