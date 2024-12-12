@@ -25,7 +25,7 @@ body {
 /* Estilo para el título */
 h1 {
     font-size: 2.5em;
-    color: white;
+    color: #333;
     margin-bottom: 20px;
 }
 
@@ -41,7 +41,7 @@ h1 {
 
 /* Estilo para cada caja */
 .box {
-    background-color: rgb(20, 143, 192); 
+    background-color: #71e975; /* Fondo verde */
     color: white;
     padding: 20px;
     width: 300px;
