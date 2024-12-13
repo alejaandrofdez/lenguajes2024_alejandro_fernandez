@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     height: 100vh; /* Hace que el body ocupe toda la altura de la pantalla */
     background-color: #f4f4f4; /* Fondo gris claro */
-    background-image: url('../image/miniweb.png');
+    background-image: url('../miniweb/image/fondoindex.png');
     background-size: cover; /* La imagen cubre toda la pantalla */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -45,7 +45,7 @@ h1 {
 
 /* Estilo para cada caja */
 .box {
-    background-color: rgb(34, 234, 228); 
+    background-color: rgb(6, 241, 175); 
     color: white;
     padding: 20px;
     width: 300px;
@@ -59,18 +59,7 @@ h1 {
 .box:hover {
     transform: scale(1.1); /* Aumenta el tamaño al pasar el ratón */
 }
-.archivo{
-    background-color: rgb(34, 234, 228);
-    color: white;
-    padding: 20px;
-    width: 300px;
-    text-align: center;
-    border-radius: 8px;
-}
 a {
-    color: white; /* Cambia el color del texto del enlace a blanco */   
-    text-decoration: none; /* Elimina el subrayado, opcional */
-}
-
-
-
+  color: white; /* Cambia el color del texto del enlace a blanco */   
+  text-decoration: none; /* Elimina el subrayado, opcional */
+  }

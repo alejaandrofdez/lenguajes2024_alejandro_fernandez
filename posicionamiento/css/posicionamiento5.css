@@ -66,12 +66,12 @@ body {
     background-color: orange;
     min-height: 200vh; /* Aumentamos el tamaño para generar scroll */
     flex: 2;
+
 }
 
 .scroll-div p {
-    text-align: center;
-    padding-top: 50px;
-    font-size: 2vw;
+    text-align: left;  
+    font-size: 1vw;
 }
 
 @media (max-width: 768px) {
