@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dado</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+    .header{
+        font-size: 8vh;
+        background-color: black;
+        text-align: center;
+        color: white;
+        
+    }
+    .footer{
+        text-align: center;
+        background-color: black;
+        font-size: 2vh;
+        color: white;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-areas: auto auto auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 40px;
+        margin: 10px;
+        gap: 2rem;
+        align-items: center;
+        
+      
+    }
+    .dado{
+        background-color: rgb(158, 158, 158);
+        border-radius: 4px;
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+        align-items: center;
+        justify-content: center;
+        padding: 3.5px;
+        
+    }
+    .dadoI{
+        background-color: white;
+        border-radius: 4px;
+        height: 190px;
+        width: 190px;
+        align-items: center;
+        justify-content: center;
+       
+        
+    }
+    .punto{
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        border-radius: 100%;
+    }
+    .punto1{
+        align-items: center;
+    }
+    
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <header>Dado</header>
+    </div>
+    <main>
+        <div class="container">
+
+            <div class="dado">
+                <div class="dadoI">   
+                    <div class="punto"></div>
+                </div>
+            </div>
+
+            <div class="dado">
+                <div class="dadoI">
+                    <div class="punto"></div>
+                    <div class="punto"></div>
+                </div>
+            </div>
+
+            <div class="dado">
+                <div class="dadoI">
+                    <div class="punto"></div>
+                    <div class="punto"></div>
+                    <div class="punto"></div>
+
+                </div>
+            </div>
+
+            <div class="dado">
+                <div class="dadoI">
+                    <div class="punto"></div>
+                    <div class="punto"></div>
+                    <div class="punto"></div>
+                    <div class="punto"></div>
+
+                </div>
+            </div>
+
+            <div class="dado">
+                <div class="dadoI">
+                    <div class="punto"></div>
+                    <div class="punto"></div>
+                    <div class="punto"></div>
+                    <div class="punto"></div>
+                    <div class="punto"></div>
+
+                </div>
+            </div>
+
+            <div class="dado">
+                <div class="dadoI">
+                    <div class="punto"></div>
+                    <div class="punto"></div>
+                    <div class="punto"></div>
+                    <div class="punto"></div>
+                    <div class="punto"></div>
+                    <div class="punto"></div>
+
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Alejandro Fernández</p>
+        </div>
+    </footer>
+</body>
+
+</html>
