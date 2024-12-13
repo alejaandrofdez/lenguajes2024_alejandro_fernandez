@@ -73,19 +73,34 @@ body {
     text-align: left;  
     font-size: 1vw;
 }
-
 @media (max-width: 768px) {
+    /* 
+    Este bloque de estilos se aplica solo a pantallas con un ancho máximo de 768px.
+    Es útil para dispositivos móviles o tabletas pequeñas.
+    */
+    
     .sticky-container {
-        flex-direction: column;
+        flex-direction: column; 
+        /* Cambia la orientación del contenedor flex a columna.
+           Los elementos hijos se apilan verticalmente en lugar de estar en fila. */
     }
 
     .left-div, .main-div, .sticky-div {
-        flex: none;
-        min-height: 30vh;
+        flex: none; 
+        /* Desactiva el comportamiento flexible (crecimiento/reducción) de los elementos en un contenedor flex. */
+        
+        min-height: 30vh; 
+        /* Establece una altura mínima de 30% de la altura de la ventana visible (viewport).
+           Esto asegura que cada sección tenga un tamaño mínimo razonable en pantallas pequeñas. */
     }
 
     .fixed-div {
-        width: 20vw;
-        height: 20vw;
+        width: 20vw; 
+        /* Define el ancho como el 20% del ancho de la ventana visible (viewport). */
+        
+        height: 20vw; 
+        /* Define la altura como igual al ancho, asegurando que el elemento sea cuadrado. */
     }
 }
+
+
