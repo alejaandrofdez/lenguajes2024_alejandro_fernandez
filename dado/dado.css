@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Estilo general */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Contenedor principal para los dados */
+  .contenedor-dados {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: auto auto auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    margin: 10px;
+    gap: 2rem;
+    align-items: center;
+    
+  }
+  
+  /* Estilo de cada dado */
+  .dado {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    background-color: #b8b3b3;
+    place-items: center;
+  }
+  
+  /* Estilo de los puntos */
+  .punto {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+  }
+  
+  /* Posiciones de los puntos para cada cara del dado */
+  
+  /* Cara 1 (un punto en el centro) */
+  .cara-1 .punto {
+    grid-row: 2;
+    grid-column: 2;
+  }
+  
+  /* Cara 2 (dos puntos en esquinas opuestas) */
+  .cara-2 .punto:nth-child(1) {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .cara-2 .punto:nth-child(2) {
+    grid-row: 3;
+    grid-column: 3;
+  }
+  
+  /* Cara 3 (tres puntos en diagonal) */
+  .cara-3 .punto:nth-child(1) {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .cara-3 .punto:nth-child(2) {
+    grid-row: 2;
+    grid-column: 2;
+  }
+  .cara-3 .punto:nth-child(3) {
+    grid-row: 3;
+    grid-column: 3;
+  }
+  
+  /* Cara 4 (cuatro puntos en las esquinas) */
+  .cara-4 .punto:nth-child(1) {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .cara-4 .punto:nth-child(2) {
+    grid-row: 1;
+    grid-column: 3;
+  }
+  .cara-4 .punto:nth-child(3) {
+    grid-row: 3;
+    grid-column: 1;
+  }
+  .cara-4 .punto:nth-child(4) {
+    grid-row: 3;
+    grid-column: 3;
+  }
+  
+  /* Cara 5 (cuatro puntos en las esquinas y uno en el centro) */
+  .cara-5 .punto:nth-child(1) {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .cara-5 .punto:nth-child(2) {
+    grid-row: 1;
+    grid-column: 3;
+  }
+  .cara-5 .punto:nth-child(3) {
+    grid-row: 2;
+    grid-column: 2;
+  }
+  .cara-5 .punto:nth-child(4) {
+    grid-row: 3;
+    grid-column: 1;
+  }
+  .cara-5 .punto:nth-child(5) {
+    grid-row: 3;
+    grid-column: 3;
+  }
+  
+  /* Cara 6 (dos columnas de puntos) */
+  .cara-6 .punto:nth-child(1) {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .cara-6 .punto:nth-child(2) {
+    grid-row: 2;
+    grid-column: 1;
+  }
+  .cara-6 .punto:nth-child(3) {
+    grid-row: 3;
+    grid-column: 1;
+  }
+  .cara-6 .punto:nth-child(4) {
+    grid-row: 1;
+    grid-column: 3;
+  }
+  .cara-6 .punto:nth-child(5) {
+    grid-row: 2;
+    grid-column: 3;
+  }
+  .cara-6 .punto:nth-child(6) {
+    grid-row: 3;
+    grid-column: 3;
+  }
+  
+  /* Estilo del encabezado */
+  header {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+  }
+  
+
+  /* Estilo del pie de página */
+  footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: auto;
+  }
+  
